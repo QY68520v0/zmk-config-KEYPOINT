@@ -95,7 +95,7 @@ layers:
   - '&bl BL_DEC'
   - '&bl BL_INC'
   - {t: ▽, type: trans}
-  - {t: MOUSE, h: toggle}
+  - {t: ▽, type: trans}
   - ;
   - ''''
   - NUBS
@@ -105,10 +105,10 @@ layers:
   - '&bootloader'
   - BT CLR
   - {type: held}
-  - SPACE
+  - LEFT SHIFT
   - LOWER
   - LOWER
-  - SPACE
+  - {t: MOUSE, h: toggle}
   - RIGHT SHIFT
   - OUT TOG
   - '&bootloader'
